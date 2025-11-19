@@ -70,11 +70,11 @@ a:hover{
     padding-bottom;
 
 }
-.home-image{
-    border-style: dotted;
+/*.home-image{
+    border-style:hidden;
     border-width: 2px;
     border-radius: 1px;
-}
+}*/
 .list-home{
     list-style-type: lower-roman;
 }
