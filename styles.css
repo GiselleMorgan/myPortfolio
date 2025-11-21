@@ -58,11 +58,14 @@ a:hover{
     text-decoration: underline;
 }
 .content p{
-    color:aquamarine
+    font-family: "Garamond", Times, serif;
 }
-.content .homeText{
-    color: brown;
-    text-decoration: underline;
+.contentAboutMe{
+    font-family: "Garamond", Times, serif;
+    padding:20px;
+}
+.contentAboutMe ol{
+    padding-left:35px;
 }
 .content .intro{
     padding-bottom: 60px;
@@ -75,19 +78,25 @@ a:hover{
     padding-bottom: 10px;
 
 }
-/*.contentHome {
-    background-image:url(images/chip.jpg); /*IF you want a picture as a background */
- /*   height: 100%;
+.contentHome {
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 20px;
+  font-family: "Garamond", Times, serif;
+
+}
+.backg{
+
+    background-image:url(images/chalk.jpg); /*IF you want a picture as a background */
+    height: 100%;
    background-repeat:no-repeat;
    background-size:cover; /*If you want it to cover the whole background*/
- /*  background-position: center;
+   background-position: center;
    
 }
-/*.home-image{
-    border-style:hidden;
-    border-width: 2px;
-    border-radius: 1px;
-}*/
+.home-image{
+    padding:5px;
+}
 .list-home{
     list-style-type: lower-roman;
 }
